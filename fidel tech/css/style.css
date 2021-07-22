@@ -1,0 +1,226 @@
+
+
+*{
+    
+font-family: 'Montserrat', sans-serif;
+}
+.hero
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/spice_spoons_detail.jpg);
+    /* background-size:100% 100%; */
+    background-size:cover;
+
+}
+.batns
+{
+    background-color: #f4a261;
+    color:white;
+}
+nav{
+    background-color: #2a9d8f;
+}
+.right ul li a
+{
+    text-decoration: none;
+    color:white;
+
+}
+.left span{
+    color:#f4a261;
+    font-size: 23px;
+}
+
+.left h4{
+    font-family: 'Fuggles', cursive;
+    font-size: 40px;
+    color:white;
+    
+}
+.pow
+{
+    height:250px;
+}
+.p1 img,.p2 img,.p3 img,.p4 img{
+    width:100%;
+    height:100%;
+}
+.p1,.p2,.p3,.p4{
+    transition:0.3s;
+            position: relative;
+            height:250px;
+}
+.s1 h5{
+    padding-top:15px;
+}
+.right ul li{
+    padding-left: 30px;
+} 
+.services
+{
+    background-color:rgba(233,196,106,0.5);
+
+    color:black;
+}
+.services a{
+    width:180px;
+    height:60px;
+    background-color: #2a9d8f;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+
+.contact
+{
+    background-image: linear-gradient(rgba(160,169,194,0.7),rgba(160,169,194,0.7)),url(../images/assorted-indian-food-different-bowls-dark-wooden-background-top-view-dishes-appetizers-cuisine-chicken-curry-rice-129630877.jpg);
+}
+.lefts span{
+    color:#f4a261;
+}
+.lefts span i{
+    font-size: 30px;
+}
+.lefts h4{
+    font-family: 'Fuggles', cursive;
+    font-size: 50px;
+    /* font-weight; */
+    color:white;
+}
+.c2 form input{
+    color: grey;
+    background-color:aliceblue;
+    border: none;
+}
+.c2 form textarea{
+    background-color:aliceblue;
+border:none;
+}
+.c2 form button{
+    color:white;
+    background-color:#f4a261;
+}
+.lines{
+    width:100px;
+    height:10px;
+    border-top:2px solid white;
+    margin-left: 10px;
+}
+.foll li {
+    width:30px;
+    height:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #e76f51;
+    border-radius: 100%;
+    background-color:#e76f51;
+    margin-left: 10px;
+}
+.foll li a{
+    text-decoration: none;
+    color:white;
+}
+.get h6 span
+{
+font-weight:normal;
+}
+.footer
+{
+    color:white;
+  background-color:rgba(38,70,83,255);
+}
+.last{
+  background-color:black;
+  color:white;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.slogn{
+    background-color: #2a9d8f;
+
+}
+.slogn h4 span{
+font-weight: normal;
+font-size:15px;
+}
+.v2 p{
+    font-size: 20px;
+}
+.child{
+    transition:0.5s;
+    opacity:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    background:linear-gradient(black,black);
+}
+.child h5{
+    font-weight: bolder;
+    color:white
+}
+.child:hover{
+            opacity:1;
+        }
+@media (min-width:768px)
+{
+    .hero{
+    height:300px;
+    }
+   
+    .one,.two,.three
+    {
+        height:100%;
+        /* height:300px; */
+    }
+    
+    .contact{
+        height:430px;
+    }
+    .footer
+    {
+        height:400px;
+    }
+    .v1 iframe
+    {
+        width:100%;
+        height:250px;
+    }
+    .last
+    {
+
+    }
+    .slogn{
+height:150px;
+    }
+}
+@media (min-width:994px)
+{
+    .hero{
+        height:500px;
+    }
+    .one img {
+      /* width:80px; */
+      height:350px;
+      
+    }
+    .two img
+    {
+        /* border-radius: 100%; */
+    }
+      nav {
+/* height:100px; */
+      }
+    .contact{
+        height:370px;
+    }
+    .footer{
+        height:250px;
+    }
+}
